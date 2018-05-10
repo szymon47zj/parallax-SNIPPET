@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+section {
+	height: 50vh;
+}
+
+.background {
+	background-color: grey;
+}
+
+.parallax {
+	background-image: url('https://d-pt.ppstatic.pl/kadry/k/r/1/c8/cd/55c5b105b3cb3_o,size,969x565,q,71,h,475be5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat
+}
+
+.parallax:nth-of-type(2) {
+	background-image: url('https://www.kotydomowe.com/img/koty/rosyjski/kot_rosyjski_niebieski.jpg');
+}
